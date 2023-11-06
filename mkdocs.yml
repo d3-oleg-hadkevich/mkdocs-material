@@ -1,0 +1,44 @@
+site_name: Door3 Engineering
+site_url: http://localhost:8000/
+copyright: Copyright &copy;2023 Door3
+repo_url: https://github.com/squidfunk/mkdocs-material
+edit_uri: edit/main/docs/
+plugins:
+  - search
+  - git-revision-date-localized
+language: en
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/git-alt
+  custom_dir: overrides
+  language: en
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+    - navigation.top
+    - navigation.instant.prefetch
+    - navigation.path
+    - navigation.prune
+    - toc.integrate
+    - content.action.edit
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - search.suggest
+    - search.highlights
+markdown_extensions:
+  - toc:
+      permalink: false
+      title: On this page
+      toc_depth: 0
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
