@@ -12,7 +12,7 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   custom_dir: overrides
-  language: en
+  locale: en
   features:
     - navigation.tracking
     - navigation.tabs
