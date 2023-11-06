@@ -1,8 +1,8 @@
 site_name: Door3 Engineering
 site_url: http://localhost:8000/
 copyright: Copyright &copy;2023 Door3
-repo_url: https://github.com/squidfunk/mkdocs-material
-edit_uri: edit/main/docs/
+repo_url: https://github.com/d3-oleg-hadkevich/mkdocs-material
+edit_uri: tree/main/docs/
 plugins:
   - search
   - git-revision-date-localized
