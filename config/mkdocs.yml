@@ -1,6 +1,6 @@
-site_name: Door3 Engineering
+site_name: DOOR3 Engineering
 site_url: http://localhost:8000/
-copyright: Copyright &copy;2023 Door3
+copyright: Copyright &copy;2023 DOOR3
 repo_url: https://github.com/d3-oleg-hadkevich/mkdocs-material
 edit_uri: tree/main/documentation/
 docs_dir: ../documentation
@@ -9,6 +9,7 @@ plugins:
   - git-revision-date-localized
 theme:
   name: material
+  logo: assets/images/d3-logo.svg
   icon:
     repo: fontawesome/brands/git-alt
   custom_dir: ../documentation/overrides
@@ -35,13 +36,13 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: teal
+      primary: "#1737D0"
       accent: purple
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
+      primary: "#1737D0"
       accent: lime
 markdown_extensions:
   - toc:
@@ -57,3 +58,5 @@ markdown_extensions:
   - tables
 extra:
   generator: false
+extra_css:
+  - stylesheets/extra.css
