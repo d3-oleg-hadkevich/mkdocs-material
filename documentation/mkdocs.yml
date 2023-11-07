@@ -3,7 +3,7 @@ site_url: http://localhost:8000/
 copyright: Copyright &copy;2023 DOOR3
 repo_url: https://github.com/d3-oleg-hadkevich/mkdocs-material
 edit_uri: tree/main/documentation/
-docs_dir: ../documentation
+docs_dir: gh_pages
 plugins:
   - search
   - git-revision-date-localized
@@ -12,7 +12,7 @@ theme:
   logo: assets/images/d3-logo.svg
   icon:
     repo: fontawesome/brands/git-alt
-  custom_dir: ../documentation/overrides
+  custom_dir: gh_pages/overrides
   locale: en
   features:
     - navigation.tracking
