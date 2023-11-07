@@ -10,3 +10,7 @@
         color: #5a5af8;
     }
 }
+
+.md-header__title {
+    margin-left: 0 !important;
+}

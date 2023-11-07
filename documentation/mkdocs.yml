@@ -2,7 +2,7 @@ site_name: DOOR3 Engineering
 site_url: http://localhost:8000/
 copyright: Copyright &copy;2023 DOOR3
 repo_url: https://github.com/d3-oleg-hadkevich/mkdocs-material
-edit_uri: tree/main/documentation/
+edit_uri: tree/main/documentation/gh_pages/
 docs_dir: gh_pages
 plugins:
   - search
