@@ -2,6 +2,6 @@
 template: third-level-navigation.html
 ---
 
-# Main Page
+# Main
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

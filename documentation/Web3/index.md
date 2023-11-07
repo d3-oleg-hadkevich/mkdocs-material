@@ -2,6 +2,4 @@
 template: third-level-navigation.html
 ---
 
-# Main for React
-
-## React
+# Main Web3
