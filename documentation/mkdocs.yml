@@ -37,13 +37,13 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: "#1737D0"
-      accent: purple
+      accent: blue
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
       primary: "#1737D0"
-      accent: lime
+      accent: blue
 markdown_extensions:
   - toc:
       permalink: false

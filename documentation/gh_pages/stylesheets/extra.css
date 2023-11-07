@@ -1,3 +1,12 @@
 :root {
     --md-primary-fg-color: #1737D0;
+    --md-primary-fg-color--light: #f6f1f1;
+        --md-primary-fg-color--dark: #90030C;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 210;
+    .md-nav__item .md-nav__link--active{
+        color: #5a5af8;
+    }
 }
